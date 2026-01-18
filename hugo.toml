@@ -1,0 +1,51 @@
+baseURL = 'https://username1103.github.io/'
+languageCode = 'ko-kr'
+title = 'Myeongil'
+theme = 'PaperMod'
+
+[params]
+  env = "production"
+  description = "Myeongil의 기술 블로그"
+  author = "Myeongil"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = "Myeongil"
+  Content = "기술 블로그입니다."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/username1103"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "/archives/"
+    weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
