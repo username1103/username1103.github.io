@@ -1,5 +1,5 @@
 ---
-title: "Spring Batch JobParameter가 항상 이전 값으로 실행되는 이유"
+title: "Spring Batch JobParameter가 로컬에서 사용했던 값으로 실행된 이유"
 date: 2025-11-23
 tags: ["Spring Batch", "JobParameter", "RunIdIncrementer", "Jenkins", "Docker"]
 categories: ["Spring"]
