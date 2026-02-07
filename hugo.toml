@@ -2,6 +2,7 @@ baseURL = 'https://myeongil.seorapjang.com'
 languageCode = 'ko-kr'
 title = 'Myeongil'
 theme = 'PaperMod'
+enableRobotsTXT = true
 
 [params]
   env = "production"
